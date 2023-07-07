@@ -1,0 +1,156 @@
+html {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  background: linear-gradient(120deg, #bfb9e2, #6148dd);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.background {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.users {
+  background-color: #3620a0;
+  border: 1px solid #3620a0;
+  max-width: 800px;
+  margin: 25px auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.task {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #F4F2FF;
+  background-color: #F4F2FF;
+  border-radius: 8px;
+}
+
+.task-name {
+  font-weight: bold;
+  color: #000000;
+  font-size: 13px;
+  inline-size: 100%;
+  overflow-wrap: break-word;
+}
+
+.task-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 41px;
+}
+
+.task button {
+  padding: 3px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #F4F2FF;
+  background-color: #674bf1;
+  border: 1px solid #674bf1;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.task-no {
+  padding: 5px 15px;
+  margin-top: 10px;
+  color: #251572;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.section {
+  background-color: #D5CCFF;
+  border-radius: 10px;
+  padding: 10px;
+  width: 50%;
+  height: 100%;
+}
+
+.section h3 {
+  color: #251572;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.user-form {
+  border: 1px solid #D5CCFF;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #D5CCFF;
+  border-radius: 10px;
+}
+
+.user-form input {
+  height: 28px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid white;
+}
+
+.user-form button {
+  padding: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #F4F2FF;
+  background-color: #674bf1;
+  border: 1px solid #674bf1;
+  border-radius: 6px;
+}
+
+.box {
+  display: flex;
+}
+
+.image {
+  width: 50px;
+}
+
+img {
+  width: 100%;
+}
+
+.box > p {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-bottom: 3px;
+}
+
+@media only screen and (max-width: 576px) {
+  .users {
+    width: 93%;
+  }
+
+  .lists{
+    display: block;
+  }
+
+  .section {
+    margin: 5px auto;
+    width: 100%;
+  }
+}
